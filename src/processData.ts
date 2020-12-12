@@ -1,6 +1,6 @@
 /**
- * This is a intentionally terrible function.
- * It will add million items to the array each time.
+ * This is an intentionally terrible function.
+ * It will add a million items to the array each time.
  */
 export function processData(data: Array<string>): Array<string> {
   const arr = [];
