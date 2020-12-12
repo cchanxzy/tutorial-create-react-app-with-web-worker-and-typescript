@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebdcd2cb.chunk.css",
-    "main.js": "/static/js/main.24025194.chunk.js",
-    "main.js.map": "/static/js/main.24025194.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e69df776.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e69df776.js.map",
-    "static/js/2.29b400d1.chunk.js": "/static/js/2.29b400d1.chunk.js",
-    "static/js/2.29b400d1.chunk.js.map": "/static/js/2.29b400d1.chunk.js.map",
-    "static/js/3.e24c3324.chunk.js": "/static/js/3.e24c3324.chunk.js",
-    "static/js/3.e24c3324.chunk.js.map": "/static/js/3.e24c3324.chunk.js.map",
-    "0ce8ee154c63b5a068ab.worker.js": "/0ce8ee154c63b5a068ab.worker.js",
-    "0ce8ee154c63b5a068ab.worker.js.map": "/0ce8ee154c63b5a068ab.worker.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ebdcd2cb.chunk.css.map": "/static/css/main.ebdcd2cb.chunk.css.map",
-    "static/js/2.29b400d1.chunk.js.LICENSE.txt": "/static/js/2.29b400d1.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/tutorial-create-react-app-with-web-worker-and-typescript/static/css/main.ebdcd2cb.chunk.css",
+    "main.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.5ab6f87d.chunk.js",
+    "main.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.5ab6f87d.chunk.js.map",
+    "runtime-main.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/runtime-main.51d47cba.js",
+    "runtime-main.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/runtime-main.51d47cba.js.map",
+    "static/js/2.29b400d1.chunk.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js",
+    "static/js/2.29b400d1.chunk.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js.map",
+    "static/js/3.e24c3324.chunk.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/3.e24c3324.chunk.js",
+    "static/js/3.e24c3324.chunk.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/3.e24c3324.chunk.js.map",
+    "70e36ed67664ee8a2b8b.worker.js": "/tutorial-create-react-app-with-web-worker-and-typescript/70e36ed67664ee8a2b8b.worker.js",
+    "70e36ed67664ee8a2b8b.worker.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/70e36ed67664ee8a2b8b.worker.js.map",
+    "index.html": "/tutorial-create-react-app-with-web-worker-and-typescript/index.html",
+    "static/css/main.ebdcd2cb.chunk.css.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/css/main.ebdcd2cb.chunk.css.map",
+    "static/js/2.29b400d1.chunk.js.LICENSE.txt": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tutorial-create-react-app-with-web-worker-and-typescript/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e69df776.js",
+    "static/js/runtime-main.51d47cba.js",
     "static/js/2.29b400d1.chunk.js",
     "static/css/main.ebdcd2cb.chunk.css",
-    "static/js/main.24025194.chunk.js"
+    "static/js/main.5ab6f87d.chunk.js"
   ]
 }
