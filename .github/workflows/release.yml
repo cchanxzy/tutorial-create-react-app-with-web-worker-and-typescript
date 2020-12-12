@@ -21,6 +21,8 @@ jobs:
           key: ${{ runner.OS }}-build-${{ hashFiles('yarn.lock') }}
       - name: Install dependencies
         run: yarn
+      - name: Remove build directory
+        run: rm -rf build
       - name: Build package
         run: yarn build
       - name: Deploy to GitHub Pages
