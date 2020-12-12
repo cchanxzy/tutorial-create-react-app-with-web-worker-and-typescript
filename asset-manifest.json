@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tutorial-create-react-app-with-web-worker-and-typescript/static/css/main.ebdcd2cb.chunk.css",
-    "main.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.5ab6f87d.chunk.js",
-    "main.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.5ab6f87d.chunk.js.map",
+    "main.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.6880ae23.chunk.js",
+    "main.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/main.6880ae23.chunk.js.map",
     "runtime-main.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/runtime-main.51d47cba.js",
     "runtime-main.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/runtime-main.51d47cba.js.map",
     "static/js/2.29b400d1.chunk.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js",
     "static/js/2.29b400d1.chunk.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js.map",
     "static/js/3.e24c3324.chunk.js": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/3.e24c3324.chunk.js",
     "static/js/3.e24c3324.chunk.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/3.e24c3324.chunk.js.map",
-    "70e36ed67664ee8a2b8b.worker.js": "/tutorial-create-react-app-with-web-worker-and-typescript/70e36ed67664ee8a2b8b.worker.js",
-    "70e36ed67664ee8a2b8b.worker.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/70e36ed67664ee8a2b8b.worker.js.map",
+    "dab73669e3cdd728af4c.worker.js": "/tutorial-create-react-app-with-web-worker-and-typescript/dab73669e3cdd728af4c.worker.js",
+    "dab73669e3cdd728af4c.worker.js.map": "/tutorial-create-react-app-with-web-worker-and-typescript/dab73669e3cdd728af4c.worker.js.map",
     "index.html": "/tutorial-create-react-app-with-web-worker-and-typescript/index.html",
     "static/css/main.ebdcd2cb.chunk.css.map": "/tutorial-create-react-app-with-web-worker-and-typescript/static/css/main.ebdcd2cb.chunk.css.map",
     "static/js/2.29b400d1.chunk.js.LICENSE.txt": "/tutorial-create-react-app-with-web-worker-and-typescript/static/js/2.29b400d1.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.51d47cba.js",
     "static/js/2.29b400d1.chunk.js",
     "static/css/main.ebdcd2cb.chunk.css",
-    "static/js/main.5ab6f87d.chunk.js"
+    "static/js/main.6880ae23.chunk.js"
   ]
 }
