@@ -9,7 +9,7 @@ const instance = new Worker();
 
 function App() {
   const [processingStatus, setProcessingStatus] = useState(false);
-  const [data, setData] = useState<Array<string>>([]);
+  const [itemSize, setItemSize] = useState<number>(0);
   const [count, setCount] = useState(0);
 
   const onCount = () => {
@@ -17,7 +17,7 @@ function App() {
   };
 
   const onReset = () => {
-    setData([]);
+    setItemSize(0);
     setCount(0);
   };
 
@@ -25,10 +25,10 @@ function App() {
     const t0 = performance.now();
     setProcessingStatus(true);
 
-    // Use a web worker to process the data
-    const processed = await instance.processDataWithWebWorker(data);
+    // Use a web worker to process the itemSize
+    const newArrSize = await instance.processDataWithWebWorker(itemSize);
 
-    setData(processed);
+    setItemSize(newArrSize);
     setProcessingStatus(false);
     const t1 = performance.now();
     console.log(`Web worker took ${Math.floor(t1 - t0)} milliseconds.`);
@@ -38,10 +38,10 @@ function App() {
     const t0 = performance.now();
     setProcessingStatus(true);
 
-    // Use main thread to process the data
-    const processed = processData(data);
+    // Use main thread to process the itemSize
+    const newArrSize = processData(itemSize);
 
-    setData(processed);
+    setItemSize(newArrSize);
     setProcessingStatus(false);
     const t1 = performance.now();
     console.log(`Main thread took ${Math.floor(t1 - t0)} milliseconds.`);
@@ -78,7 +78,7 @@ function App() {
           </button>
         </div>
         <p>Processing status: {processingStatus ? 'PROCESSING' : 'IDLE'}</p>
-        <p>Number of items: {data.length}</p>
+        <p>Number of items: {itemSize}</p>
         <div>
           <button onClick={onReset} disabled={processingStatus}>
             Reset

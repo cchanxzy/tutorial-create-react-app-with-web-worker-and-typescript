@@ -1,13 +1,12 @@
 /**
- * This is an intentionally terrible function.
- * It will add a million items to the array each time.
+ * This is an intentionally a useless and terrible function.
  */
-export function processData(data: Array<string>): Array<string> {
-  const arr = [];
+export function processData(size: number): number {
+  const obj: Record<number, number> = {};
 
-  for (let i = 0; i < data.length + 1_000_000; i++) {
-    arr.push(`${i}`);
+  for (let i = 0; i < size + 1_000_000; i++) {
+    obj[i] = i;
   }
 
-  return arr;
+  return Object.keys(obj).length;
 }
