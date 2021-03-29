@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Worker from './worker';
-import { processData } from './processData';
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Worker from "./worker";
+import { processData } from "./processData";
 
 // Create new instance
 const instance = new Worker();
@@ -26,7 +26,9 @@ function App() {
     setProcessingStatus(true);
 
     // Use a web worker to process the itemSize
-    const newArrSize = await instance.processDataWithWebWorker(itemSize);
+    //const newArrSize = await instance.processDataWithWebWorker(itemSize);
+
+    const newArrSize = await instance.startExpress();
 
     setItemSize(newArrSize);
     setProcessingStatus(false);
@@ -77,7 +79,7 @@ function App() {
             Click to process on main thread
           </button>
         </div>
-        <p>Processing status: {processingStatus ? 'PROCESSING' : 'IDLE'}</p>
+        <p>Processing status: {processingStatus ? "PROCESSING" : "IDLE"}</p>
         <p>Number of items: {itemSize}</p>
         <div>
           <button onClick={onReset} disabled={processingStatus}>
